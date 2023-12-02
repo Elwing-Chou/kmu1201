@@ -1,0 +1,17 @@
+1. Jupyter notebook
+
+2 如果你使用pycharm->案左下角的terminal 
+    a. pip install jupyter
+    b. jupyter notebook
+
+3. 抓重點(關鍵詞)
+     a. 次數: 多, 越重要
+     b. 常見度: 常見, 越不重要
+     常見度 = 詞出現在幾篇/總篇數
+     TF-IDF: 關鍵程度 = 次數 *  1/常見度
+
+4. 預處理(分詞): 我  喜歡  你
+     辭典(分割多種可能) -> 上下文算機率(HMM+Viterbi)
+
+
+
